@@ -1,0 +1,57 @@
+nav{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+nav .margin{
+    display: flex;
+    margin-right: auto;
+}
+nav .margin-right{
+    display: flex;
+    justify-content: end;
+}
+nav ul{
+    list-style: none;
+    width: 100vw;
+}
+nav ul a{
+    text-decoration: none;
+    
+}
+nav .margin-right a{
+padding: 0.5rem;
+
+}
+nav .margin h4{
+    padding:0 1rem;
+}
+.margin-right{
+position: fixed;
+right: 6rem;
+}
+.margin{
+    position: fixed;
+    left: 3rem;
+}
+
+
+
+
+
+
+
+
+/* .parent{
+    width: 100vw;l
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+.icon a{
+text-decoration: none;
+padding: .5rem;
+}
+ul .margin{
+    margin-right: auto;
+} */
