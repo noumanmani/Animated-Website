@@ -8,3 +8,6 @@ function hide(){
     const butt =document.querySelector(".btn")
     butt.style.backgroundColor="Blue" 
 }
+function fixd(){
+    
+}
