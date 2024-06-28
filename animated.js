@@ -1,4 +1,10 @@
-function showtextdecorastion(){
-    let decorastion=document.querySelector(".inlin").addEventListener.style.textDecoration="underline"
-    decorastion.style.textDecoration = 'underline'; 
+
+function hide(){
+    let nono=document.querySelector(".btn");
+    nono.style.backgroundClore="blue" 
+
+}
+function hide(){
+    const butt =document.querySelector(".btn")
+    butt.style.backgroundColor="Blue" 
 }
