@@ -1,75 +1,64 @@
 .parent{
     height: 100vh;
-    width: 100%;
-     background-image:linear-gradient(rgba(12,3,51,0.1),rgba(12,3,51,0.1)); 
-    /* display: flex; */
-    /* padding: -1.5%; */
+    width: 100vw;
+     /* background-image:linear-gradient(rgba(12,3,51,0.1),rgba(12,3,51,0.1));  */
     position: relative;
-    justify-content: center;
-    align-items: center;
+
 }
-.nav{
-    width: 100%;
+nav{
+    width: 100vw;
     position: fixed;
-    /* bottom:0 ; */
-    /* left: 100px; */
-    /* padding: ; */
+    top: 0;
+    bottom: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    
+
 }
-nav .margin{
-    display: flex;
-    margin-right: auto;
-    background-color: black;
-    position: relative;
-    
-}
-nav .margin-right{
-    display: flex;
-    justify-content: end;
-}
-nav ul{
+ nav ul{
     list-style: none;
-    width: 100%;
+    display: flex;
+    width: 100vw;
+    height: 2rem;
+     background-color:rgb(59, 58, 58); 
+    margin-top: 0;
+    
+}
+.margin-left{
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-start;
+}
+ul h4{
+    color: red;
+    font-weight: 700;
+    position: relative;
+    bottom: 3rem;
+    font-size: 2rem;
 }
 nav ul a{
     text-decoration: none;
     cursor: pointer;
     
 }
-nav .margin-right a{
- padding: 0.5rem; 
-
+.margin-center{
+position: relative;
 }
-nav .margin h4{
-    padding:0 1rem;
+nav ul{
+    gap: 1.5rem;
 }
 .margin-right{
-position: relative;
-bottom: 3rem;
-right: 4rem;
+    display: flex;
+    justify-content: center;
+}
 
-}
-.margin{
-    position: fixed;
-    /* left:4rem; */
-    background-color: black;
-    width: 100%;
-    
-}
 .my-video{
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
+    object-fit: cover;
  }
- h4{
-    color:white;
-    display: block;  
-    margin-top: 0;
+ video{
+    object-fit: cover;
  }
  a{
     color:white;
@@ -102,19 +91,17 @@ cursor: pointer;
 .margin i a{
     cursor: pointer;
 }
-
-.nav .logo{
-    width: 80px;
-
+nav .logo{
+    width: 40px;
 }
-.image img{
+.image img{ 
     height: 50px;
     width: 50px;
     border: 1px solid white; 
      border-radius: 50px;
     position: fixed;
-    top: 5rem;
-    left: 10rem;
+    top: 7rem;
+    left:10rem ;
 }
 
 .container{
@@ -216,3 +203,23 @@ cursor: pointer;
     color: orange;
     font-size: 5rem;
 }
+
+
+.none{
+    display: none;
+}
+         @media (max-width:740px) {
+            .none{
+                display: flex;
+                justify-content: end;
+                font-size: 2rem;
+                color: black;
+                list-style: none;
+            }
+            .none i{
+                color: black;
+            }
+            nav{
+                display: none;
+            }
+         }
