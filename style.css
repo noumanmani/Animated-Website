@@ -11,11 +11,79 @@ color: #FFC400;
 .overview{
     display: block;
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-image:linear-gradient(rgba(12,3,51,0.1),rgba(12,3,51,0.1));  
 }
+.pitcure{
+    height: 40vh;
+    width: 100vh;
+    display: flex;
+    
+}
+.pick img{
+    height: 200px;
+    width: 200px;
+      
+    
+  } 
 .pick{
+    display: flex inline;
+    padding: 20px;
+    /* background-image:linear-gradient(rgba(12,3,51,0.1),rgba(12,3,51,0.1));   */
+}
+
+.information{
+    height: 70px;
     display: flex;
     justify-content: center;
+    
+}
+.papa{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+     background-color:black;  
+     justify-content: center; 
+
+}
+
+.location i{
+    font-size: 3rem;
+    color: #FFC400;
+    padding-left: 10rem;
+}
+.location{
+    display: block inline;
+    width: 40%;
+
+}
+.location h4{
+    color: #FFC400;
+
+}
+.signup{
+width: 60%;
+
+}
+.signup #inpt{
+    width:40rem;
+    height: 2.5rem;
+    background-color: black;
+    border: white solid 1px ;
+    color: rgb(255, 248, 248);
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 1rem; */
+    cursor:
+}
+label{
+padding: 3rem;
+color: white;
+
+}
+#submit{
+height: 3rem;
+width: 6rem;
+margin-top: 4rem;
+background-color: #FFC400;
 }
