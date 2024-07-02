@@ -206,20 +206,21 @@ nav .logo{
 
 
 .none{
+    position: fixed;
+    top: 1.5rem;
+    left: 300px;
+    font-size: 3rem;
+    list-style: none;
+    color: aliceblue;
     display: none;
-}
-         @media (max-width:740px) {
-            .none{
-                display: flex;
-                justify-content: end;
-                font-size: 2rem;
-                color: black;
-                list-style: none;
-            }
-            .none i{
-                color: black;
-            }
+} 
+         @media (max-width:850px) {
             nav{
                 display: none;
             }
          }
+@media(max-width:800px){
+    .none{
+        display: block;
+    }
+}         

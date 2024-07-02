@@ -67,14 +67,13 @@ width: 60%;
 
 }
 .signup #inpt{
-    width:55rem;
+    width:47rem;
     height: 2.5rem;
     background-color: black;
     border: white solid 1px ;
     color: rgb(255, 248, 248);
     font-family: 'Courier New', Courier, monospace;
-    /* font-size: 1rem; */
-    cursor:
+    font-size: 1rem;
 }
 label{
 padding: 3rem;
@@ -86,4 +85,16 @@ height: 3rem;
 width: 6rem;
 margin-top: 4rem;
 background-color: #FFC400;
+}
+.gym{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 1rem;
+    display: none;
+}
+@media(max-width:800px){
+.gym{
+display: block;
+    }
 }
