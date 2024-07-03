@@ -98,3 +98,95 @@ background-color: #FFC400;
 display: block;
     }
 }
+.bg{
+height: 100vh;
+width: 100vw;
+display: flex;
+background-color: #FFC400;
+}
+.bk{
+    width: 60vw;
+    height: 100vw;
+}
+.bk img{
+    height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+}
+.title{
+    width: 40vw;
+    position:relative;
+    left: 10rem;
+    top: 10rem;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.join{
+    height: 3rem;
+    width: 8rem;
+    color: white;background-color: black;font-weight: 600;border-radius: 0.4rem;
+    cursor: pointer;border: none;
+
+}
+.join:hover{
+    background-color: #414141;
+}
+footer{
+    display: flex;
+    height:100vh;width: 100vw;background-color: #000000;color: #fff;font-family: "roboto";
+
+}
+#last{
+    height: 2rem;
+    width: 15rem;
+    border-radius:6px;
+}
+#end{color: #ffffff; height: 2.5rem;  width: 6rem;background-color: #FFC400;border-radius: 6px;
+cursor: pointer;}
+.footpanel1{
+display: block;
+}
+.icon-last{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem;
+}
+.COMPNAY a{
+display: block;
+text-decoration:none ;
+padding: 1rem;
+font-size: 12px;
+
+}
+.COMPNAY h3{
+    padding: 1rem;
+}
+.foot-panel2 a{
+    color: white;
+    display: block;
+text-decoration:none ;
+padding:.5rem 2rem;
+font-size: 12px;
+
+}
+.foot-panel2 h3{
+    padding:0.5 2rem;
+}
+.foot-panel3 a{
+    color: white;
+    display: block;
+text-decoration:none ;
+padding:.5rem 2rem;
+font-size: 12px;
+}
+.foot-panel4{
+    background-color: #000000;color: #fff;font-family: "roboto";
+    height: 150px;
+    margin-top: -1rem;
+}
+
+
+
+
